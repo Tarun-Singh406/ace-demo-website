@@ -42,7 +42,7 @@
 
 :root {
   --radius: 0.75rem;
-  /* Tarun Coaching brand palette — oklch equivalents of brand hex */
+  /* Ace Commerce Academy brand palette — oklch equivalents of brand hex */
   --background: oklch(0.984 0.005 240);     /* #F6F9FC */
   --foreground: oklch(0.22 0.04 250);       /* #192231 */
   --card: oklch(1 0 0);                     /* #FFFFFF */
