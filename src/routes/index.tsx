@@ -16,7 +16,7 @@ import { Footer } from "@/components/site/Footer";
 import { WhatsAppFab } from "@/components/site/WhatsAppFab";
 import { SITE } from "@/lib/site-data";
 
-const TITLE = "Tarun Coaching — Commerce, B.Com & CA Coaching in Ranchi";
+const TITLE = "Ace Commerce Academy — Commerce, B.Com & CA Coaching in Ranchi";
 const DESC =
   "Premium Commerce, B.Com and CA coaching with experienced faculty, small batches, weekly tests and proven results. Book a free demo class today.";
 
@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: TITLE },
       { name: "description", content: DESC },
-      { name: "keywords", content: "commerce coaching Ranchi, CA coaching, B.Com coaching, Class 11 12 commerce, Tarun Coaching" },
+      { name: "keywords", content: "commerce coaching Ranchi, CA coaching, B.Com coaching, Class 11 12 commerce, Ace Commerce Academy" },
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESC },
       { property: "og:type", content: "website" },

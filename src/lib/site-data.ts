@@ -10,15 +10,15 @@ import hero1 from "@/assets/hero-classroom-1.jpg";
 import hero2 from "@/assets/hero-classroom-2.jpg";
 
 export const SITE = {
-  name: "Tarun Coaching",
-  shortName: "Tarun Coaching",
+  name: "Ace Commerce Academy",
+  shortName: "Ace Commerce Academy",
   tagline: "Commerce · B.Com · CA",
   phone: "+91 96086 04657",
   phoneRaw: "919608604657",
-  email: "info@taruncoaching.in",
+  email: "info@acecommerceacademy.in",
   address: "Main Road, Civil Lines, Ranchi, Jharkhand 834001",
   hours: "Mon – Sat · 7:00 AM – 8:00 PM",
-  whatsAppMessage: "Hello, I'd like to know about admissions at Tarun Coaching.",
+  whatsAppMessage: "Hello, I'd like to know about admissions at Ace Commerce Academy.",
 };
 
 export const whatsAppUrl = (msg = SITE.whatsAppMessage) =>
