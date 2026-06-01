@@ -11,7 +11,7 @@ export function WhyChooseUs() {
     <section id="why" className="py-20 md:py-28">
       <div className="tc-container">
         <SectionHeading
-          eyebrow="Why Tarun Coaching"
+          eyebrow="Why Ace Commerce Academy"
           title="A premium learning experience parents actually trust."
           desc="Every part of how we teach is built around one outcome — confident, well-prepared students who walk into exams ready."
         />
