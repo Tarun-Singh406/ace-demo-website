@@ -16,8 +16,8 @@ export function Testimonials() {
     <section id="testimonials" className="bg-secondary/50 py-20 md:py-28">
       <div className="tc-container">
         <SectionHeading
-          eyebrow="What Families Say"
-          title="Quiet confidence, told in their own words."
+          eyebrow="Testimonials"
+          title="What Students And Parents Say."
         />
 
         <div className="relative mx-auto mt-12 max-w-3xl">

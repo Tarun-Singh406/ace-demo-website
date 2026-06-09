@@ -12,7 +12,7 @@ export function Footer() {
               Admissions Open · Limited Seats
             </p>
             <h3 className="mt-2 max-w-xl text-2xl font-bold text-white md:text-3xl">
-              Give your child the mentorship that turns effort into results.
+              Give your child the Chemistry mentorship that turns effort into results.
             </h3>
           </div>
           <a
@@ -33,8 +33,8 @@ export function Footer() {
             <span className="text-lg font-bold tracking-tight text-white">{SITE.name}</span>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-white/70">
-            A premium Commerce, B.Com and CA coaching institute focused on
-            mentorship, results and the long-term success of every student.
+            A dedicated Chemistry coaching institute for Class 11, 12, JEE and
+            NEET aspirants — focused on concept clarity, mentorship and results.
           </p>
           <div className="mt-5 flex gap-2">
             {[Facebook, Instagram, Youtube].map((Icon, i) => (
@@ -89,7 +89,7 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="tc-container flex flex-col items-center justify-between gap-3 py-5 text-xs text-white/60 md:flex-row">
           <p>© {new Date().getFullYear()} {SITE.name}. All rights reserved.</p>
-          <p>Built for students of Commerce, B.Com & CA.</p>
+          <p>Built for Chemistry students — Class 11, 12, JEE & NEET.</p>
         </div>
       </div>
     </footer>

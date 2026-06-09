@@ -35,7 +35,7 @@ export function Contact() {
               {/* Static map placeholder — replace with real embed/key later */}
               <img
                 src="https://staticmap.openstreetmap.de/staticmap.php?center=23.3441,85.3096&zoom=14&size=900x600&maptype=mapnik&markers=23.3441,85.3096,red-pushpin"
-                alt="Map showing Ace Commerce Academy location in Ranchi"
+                alt="Map showing Chemistry by Shashi Bhushan location in Ranchi"
                 loading="lazy"
                 width={900}
                 height={600}

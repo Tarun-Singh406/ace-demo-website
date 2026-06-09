@@ -25,7 +25,7 @@ export function TopBar() {
           </a>
           <span className="inline-flex items-center gap-1.5 rounded-full bg-[color:var(--gold)]/15 px-2.5 py-0.5 font-semibold text-[color:var(--gold)]">
             <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--gold)]" />
-            Admissions Open
+            Admissions Open · JEE & NEET · Free Demo Class
           </span>
         </div>
       </div>

@@ -6,10 +6,11 @@ import { Counter } from "./Counter";
 import { cn } from "@/lib/utils";
 
 const TRUST = [
-  "Experienced Faculty",
-  "Proven Results",
+  "15+ Years Teaching Experience",
+  "Thousands of Students Guided",
   "Regular Test Series",
-  "Personal Mentorship",
+  "Personal Doubt Support",
+  "JEE & NEET Focused",
 ];
 
 export function Hero() {
@@ -50,23 +51,22 @@ export function Hero() {
           <Reveal variant="fade-up">
             <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-white/90 backdrop-blur">
               <Sparkles className="h-3.5 w-3.5 text-[color:var(--gold)]" />
-              Admissions Open · 2025 Batch
+              Admissions Open · JEE & NEET Batches
             </span>
           </Reveal>
 
           <Reveal variant="fade-up" delay={100}>
             <h1 className="mt-5 text-4xl font-bold leading-[1.05] tracking-tight text-white md:text-5xl lg:text-6xl">
-              Build a future in{" "}
-              <span className="tc-gold-text">Commerce, B.Com & CA</span>
-              <br className="hidden md:block" /> with mentors who care.
+              Master <span className="tc-gold-text">Chemistry</span> with Confidence.
+              <br className="hidden md:block" /> Learn from Shashi Bhushan Sir.
             </h1>
           </Reveal>
 
           <Reveal variant="fade-up" delay={180}>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-white/80 md:text-lg">
-              Trusted by hundreds of families across Ranchi for board excellence,
-              B.Com results and CA exam success — taught the way you'd want your
-              own child taught.
+              Dedicated Chemistry coaching for Boards, JEE and NEET — with
+              concept-focused teaching, regular testing and personal mentorship
+              from Shashi Bhushan Sir.
             </p>
           </Reveal>
 
@@ -111,12 +111,12 @@ export function Hero() {
                 <Award className="h-5 w-5" />
               </span>
               <div>
-                <p className="text-xs font-medium text-muted-foreground">Top Rank Holders</p>
-                <p className="text-2xl font-bold text-foreground"><Counter to={120} suffix="+" /></p>
+                <p className="text-xs font-medium text-muted-foreground">JEE & NEET Selections</p>
+                <p className="text-2xl font-bold text-foreground"><Counter to={250} suffix="+" /></p>
               </div>
             </div>
             <p className="mt-3 text-[12px] text-muted-foreground">
-              AIRs in CA Foundation & Inter across recent years.
+              Chemistry top performers across recent years.
             </p>
           </div>
 
@@ -126,12 +126,12 @@ export function Hero() {
                 <TrendingUp className="h-5 w-5" />
               </span>
               <div>
-                <p className="text-xs font-medium text-muted-foreground">Board Pass Rate</p>
-                <p className="text-2xl font-bold text-foreground"><Counter to={96} suffix="%" /></p>
+                <p className="text-xs font-medium text-muted-foreground">Satisfaction Rate</p>
+                <p className="text-2xl font-bold text-foreground"><Counter to={95} suffix="%" /></p>
               </div>
             </div>
             <p className="mt-3 text-[12px] text-muted-foreground">
-              Class 12 Commerce — five-year average.
+              Across Boards, JEE and NEET Chemistry batches.
             </p>
           </div>
 
@@ -142,11 +142,11 @@ export function Hero() {
               </span>
               <div>
                 <p className="text-xs font-medium text-muted-foreground">Students Mentored</p>
-                <p className="text-2xl font-bold text-foreground"><Counter to={2400} suffix="+" /></p>
+                <p className="text-2xl font-bold text-foreground"><Counter to={5000} suffix="+" /></p>
               </div>
             </div>
             <p className="mt-3 text-[12px] text-muted-foreground">
-              Class 11 to CA Inter — since {new Date().getFullYear() - 15}.
+              Class 11 to JEE / NEET — since {new Date().getFullYear() - 15}.
             </p>
           </div>
         </div>
