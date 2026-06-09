@@ -20,8 +20,8 @@ const Schema = z.object({
 });
 type FormData = z.infer<typeof Schema>;
 
-const CLASS_OPTIONS = ["Class 11", "Class 12", "B.Com 1st Year", "B.Com 2nd/3rd Year", "CA Aspirant"];
-const COURSE_OPTIONS = ["Class 11 Commerce", "Class 12 Commerce", "B.Com (Hons./Gen.)", "CA Foundation", "CA Inter"];
+const CLASS_OPTIONS = ["Class 11", "Class 12", "Dropper / Repeater", "Foundation (9th-10th)"];
+const COURSE_OPTIONS = ["Class 11 Chemistry", "Class 12 Chemistry", "JEE Chemistry", "NEET Chemistry"];
 
 export function EnquiryForm() {
   const [done, setDone] = useState(false);
@@ -47,10 +47,10 @@ export function EnquiryForm() {
         <div className="grid items-start gap-10 lg:grid-cols-[1.05fr_0.95fr]">
           <div>
             <SectionHeading
-              eyebrow="Admission Enquiry"
+              eyebrow="Book A Free Demo Class"
               align="left"
-              title="Book a free demo class — and meet the mentor."
-              desc="Share a few details and our admissions team will call you back within working hours. No payment, no commitment."
+              title="Sit in a live Chemistry class — then decide."
+              desc="Share a few details and we'll call you back within working hours to schedule a free demo class with Shashi Bhushan Sir. No payment, no commitment."
             />
             <Reveal variant="fade-up" delay={160}>
               <ul className="mt-8 space-y-4">
@@ -128,9 +128,9 @@ export function EnquiryForm() {
                       {CLASS_OPTIONS.map((c) => (<option key={c} value={c}>{c}</option>))}
                     </select>
                   </Field>
-                  <Field label="Course" error={errors.course?.message}>
+                  <Field label="Target Exam" error={errors.course?.message}>
                     <select {...register("course")} className={inputCls(!!errors.course)} defaultValue="">
-                      <option value="" disabled>Select course</option>
+                      <option value="" disabled>Select target</option>
                       {COURSE_OPTIONS.map((c) => (<option key={c} value={c}>{c}</option>))}
                     </select>
                   </Field>

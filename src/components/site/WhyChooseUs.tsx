@@ -11,12 +11,12 @@ export function WhyChooseUs() {
     <section id="why" className="py-20 md:py-28">
       <div className="tc-container">
         <SectionHeading
-          eyebrow="Why Ace Commerce Academy"
-          title="A premium learning experience parents actually trust."
-          desc="Every part of how we teach is built around one outcome — confident, well-prepared students who walk into exams ready."
+          eyebrow="Why Students Choose Us"
+          title="Why Students Trust Chemistry by Shashi Bhushan."
+          desc="Every part of how Chemistry is taught here is built around one outcome — confident, well-prepared students who walk into exams ready."
         />
 
-        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {FEATURES.map((f, i) => {
             const Icon = ICONS[f.icon] ?? GraduationCap;
             return (

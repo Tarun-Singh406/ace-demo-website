@@ -48,13 +48,13 @@ export function Results() {
             </Reveal>
             <Reveal variant="fade-up" delay={80}>
               <h2 className="mt-4 max-w-xl text-3xl font-bold text-white md:text-4xl lg:text-[2.6rem] lg:leading-[1.1]">
-                Results that quietly speak for our students.
+                Results That Speak Louder Than Words.
               </h2>
             </Reveal>
             <Reveal variant="fade-up" delay={140}>
               <p className="mt-4 max-w-lg text-base text-white/75">
-                A few of our recent rank holders and toppers across CA Foundation,
-                CA Inter, B.Com and Class 11–12 boards.
+                Consistent Chemistry performance across Boards, JEE and NEET —
+                a few of our recent toppers and high scorers.
               </p>
             </Reveal>
           </div>

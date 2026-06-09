@@ -4,28 +4,30 @@ import { TopBar } from "@/components/site/TopBar";
 import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
 import { StatsStrip } from "@/components/site/StatsStrip";
+import { About } from "@/components/site/About";
 import { WhyChooseUs } from "@/components/site/WhyChooseUs";
 import { Results } from "@/components/site/Results";
 import { Faculty } from "@/components/site/Faculty";
 import { Courses } from "@/components/site/Courses";
 import { Process } from "@/components/site/Process";
 import { Testimonials } from "@/components/site/Testimonials";
+import { FAQ } from "@/components/site/FAQ";
 import { EnquiryForm } from "@/components/site/EnquiryForm";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { WhatsAppFab } from "@/components/site/WhatsAppFab";
 import { SITE } from "@/lib/site-data";
 
-const TITLE = "Ace Commerce Academy — Commerce, B.Com & CA Coaching in Ranchi";
+const TITLE = "Chemistry by Shashi Bhushan — Class 11, 12, JEE & NEET Chemistry Coaching in Ranchi";
 const DESC =
-  "Premium Commerce, B.Com and CA coaching with experienced faculty, small batches, weekly tests and proven results. Book a free demo class today.";
+  "Dedicated Chemistry coaching for Class 11, 12, JEE and NEET. Concept-focused teaching, regular tests and personal mentorship by Shashi Bhushan Sir. Book a free demo class today.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: TITLE },
       { name: "description", content: DESC },
-      { name: "keywords", content: "commerce coaching Ranchi, CA coaching, B.Com coaching, Class 11 12 commerce, Ace Commerce Academy" },
+      { name: "keywords", content: "Chemistry coaching Ranchi, JEE Chemistry, NEET Chemistry, Class 11 12 Chemistry, Shashi Bhushan Chemistry, CBS Chemistry" },
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESC },
       { property: "og:type", content: "website" },
@@ -75,12 +77,14 @@ function Index() {
       <main>
         <Hero />
         <StatsStrip />
+        <About />
         <WhyChooseUs />
         <Results />
-        <Faculty />
         <Courses />
+        <Faculty />
         <Process />
         <Testimonials />
+        <FAQ />
         <EnquiryForm />
         <Contact />
       </main>
