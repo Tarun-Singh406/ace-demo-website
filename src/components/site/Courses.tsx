@@ -9,8 +9,8 @@ export function Courses() {
       <div className="tc-container">
         <SectionHeading
           eyebrow="Our Courses"
-          title="Built for Commerce, B.Com and CA — at every stage."
-          desc="Four structured programs, each with focused syllabus, weekly testing and personal mentorship."
+          title="Programs Designed for Chemistry Excellence."
+          desc="Four focused Chemistry programs — Class 11, Class 12, JEE and NEET — each with structured syllabus, weekly testing and personal mentorship."
         />
 
         <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
